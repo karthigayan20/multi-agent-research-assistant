@@ -1,0 +1,38 @@
+# ── Environment ──────────────────────────────────────────────
+.env
+*.env
+
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ── Virtual Environments ──────────────────────────────────────
+venv/
+env/
+.venv/
+ENV/
+
+# ── Streamlit ────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── Reports (generated output) ───────────────────────────────
+reports/
+*.md.output
+
+# ── OS ───────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ──────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
